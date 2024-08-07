@@ -5,6 +5,6 @@ export const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./calendar/calendar.component').then(x => x.CalendarComponent),
+      import('./calendar-page/calendar-page.component').then(x => x.CalendarPageComponent),
   },
 ];

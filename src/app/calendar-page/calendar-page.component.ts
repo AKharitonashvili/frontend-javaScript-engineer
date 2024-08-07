@@ -1,13 +1,13 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-calendar',
+  selector: 'app-calendar-page',
   standalone: true,
   imports: [],
-  templateUrl: './calendar.component.html',
-  styleUrl: './calendar.component.scss',
+  templateUrl: './calendar-page.component.html',
+  styleUrl: './calendar-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class CalendarComponent {
+export class CalendarPageComponent {
 
 }
